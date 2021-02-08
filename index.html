@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -19,7 +18,7 @@
         <a class="header__link" href="#" target="_blank">Узнать	&rarr;</a>
       </p>
       <img src="images/header-image.png" alt="Опять двойка Ф.П.Решетников" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -62,11 +61,6 @@
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
-          <li class="cards__item">
-            <img src="./images/cards-competence.png" alt="no-image" class="cards__image">
-            <h3 class="cards__title"></h3>
-            <p class="cards__description"></p>
-          </li>
         </ul>
       </section>
 
@@ -74,15 +68,11 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class="video__iframes">
-          <li class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              Ваш браузер не поддерживает плавающие фреймы!
-            </iframe>
+          <li>
+            <iframe  class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </li>
-          <li class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              Ваш браузер не поддерживает плавающие фреймы!
-            </iframe>
+          <li>
+            <iframe  class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </li>
         </ul>
       </section>
@@ -149,8 +139,8 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <h3 class="khan__title">Весь мир — школа</h3>
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
@@ -206,7 +196,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation rotation-reverse"></div>
       </section>
 
       <section class="resources">
@@ -214,16 +204,16 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
           <li class="resources__logo">
-            <img src="./images/logo/resources-arzamas.svg" alt="Арзама">
+            <a href="#"><img src="./images/logo/resources-arzamas.svg" alt="Арзама"></a>
           </li>
           <li class="resources__logo">
-            <img src="./images/logo/resources-n1.svg" alt="Н + 1">
+            <a href="#"><img src="./images/logo/resources-n1.svg" alt="Н + 1"></a>
           </li>
           <li class="resources__logo">
-            <img src="./images/logo/resources-strelka.svg" alt="Стрелка">
+            <a href="#"><img src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
           </li>
           <li class="resources__logo">
-            <img src="./images/logo/resources-polka.svg" alt="Полка">
+            <a href="#"><img src="./images/logo/resources-polka.svg" alt="Полка"></a>
           </li>
         </ul>
       </section>
